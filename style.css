@@ -54,6 +54,17 @@
           animation-iteration-count: 9999;
 }
 
+.faulty-letter-2 {
+  -webkit-text-stroke-color: #444444;
+  text-shadow: 0 0 1vw #222222, 0 0 1vw #222222, 0 0 1vw #222222, 0 0 0.2vw #444444;
+  -webkit-animation-name: blink;
+          animation-name: blink;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  -webkit-animation-iteration-count: 9999;
+          animation-iteration-count: 9999;
+}
+
 .welcome {
   display: block;
   color: #28d7fe;
